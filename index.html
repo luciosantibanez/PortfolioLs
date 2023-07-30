@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lilita+One&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@200;500;900&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+    <title>Lucio Santibañez</title>
+</head>
+<body>
+    <main id="main">
+    <header>
+        <nav class="shift">
+            <ul>
+                <li><a href="#main">Home</a></li>
+                <li><a href="#sobreMi">Sobre mi</a></li>
+                <li><a href="#proyectos">Proyectos</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+        <div class="textMain">
+            <h3 id="hola">HOLA!</h3> 
+            <h2>SOY LUCIO SANTIBAÑEZ</h2>
+            <h3>Desarrollador web Front end</h3>
+            <div class="wrapper">
+                <a class="button" href="#proyectos">Proyectos</a>
+            </div>
+    
+            <svg style="visibility: hidden; position: absolute;" width="0" height="0" xmlns="http://www.w3.org/2000/svg" version="1.1">
+                <defs>
+                    <filter id="goo"><feGaussianBlur in="SourceGraphic" stdDeviation="10" result="blur" />    
+                        <feColorMatrix in="blur" mode="matrix" values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 19 -9" result="goo" />
+                        <feComposite in="SourceGraphic" in2="goo" operator="atop"/>
+                    </filter>
+                </defs>
+            </svg>
+            
+        </div>
+
+    </main>
+    <div id="sobreMi">
+        <div class="tituloSobreMi titulo">
+            <h3>SOBRE MI</h3>
+        </div>
+        <div class="contenedorAbout">
+            <img src="./img/Web Developer_Outline.svg" alt="">
+            <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque aliquid suscipit voluptatibus unde quaerat repellendus deleniti possimus sapiente accusamus culpa et quasi iure quibusdam cum, assumenda quo necessitatibus veniam ratione?</p>
+        </div>
+
+        <div class="habilidadesGrid">
+            <div class="frontEnd contenedorHab">  
+                <h3>Front end skills</h3>
+                    <div class="imgFront">
+                    <img src="./img/icons8-sass-144.png" alt="">
+                    <img src="./img/icons8-css3-144.png" alt="">
+                    <img src="./img/icons8-bootstrap-144.png" alt="">
+                    <img src="./img/icons8-wordpress-100.png" alt="">
+                </div>
+            </div>
+            <div class="diseño contenedorHab">  
+                <h3>Diseño skills</h3>
+                    <div class="imgFront">
+                    <img src="./img/icons8-figma-144.png" alt="">
+                    <img src="./img/icons8-adobe-photoshop-144.png" alt="">
+                    <img src="./img/icons8-adobe-illustrator-144.png" alt="">
+                
+                </div>
+            </div>
+            <div class="otras contenedorHab">  
+                <h3>Otras habilidades</h3>
+                    <div class="imgFront">
+                    <img src="./img/icons8-html-5-144.png" alt="">
+                    <img src="./img/icons8-git-144.png" alt="">
+                    <img src="./img/icons8-visual-studio-code-2019-144.png" alt="">
+                
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <div id="proyectos">
+        <div class="tituloProyectos titulo">
+            <h3>PROYECTOS</h3>
+        </div>
+        <div class="flex">
+
+            <div class="andesmar proyecto">
+                <div class="textoProyecto">
+                    <h3>ANDESMAR INDUSTRIAL</h3>
+                </div>
+                <a href="https://gastrosud.com.ar/" target="_blank"><img class="imgProyecto" src="./img/mockup desktop andesmar.png" alt=""></a>
+            </div>
+
+            <div class="gastrosud proyecto">
+                
+                <a href="https://gastrosud.com.ar/"><img class="imgProyecto" src="./img/mockup desktop Gastrosud (1).png" alt=""></a>
+                <div class="textoProyecto">
+                    <h3>GASTROSUD</h3>
+                </div>
+            </div>
+            <div class="andesmar proyecto">
+                <div class="textoProyecto">
+                    <h3>MI PORTFOLIO</h3>
+                </div>
+                <a href="https://gastrosud.com.ar/" target="_blank"><img class="imgProyecto" src="./img/brick-5066289 (1) (1).png" alt=""></a>
+            </div>
+            <div class="gastrosud proyecto">
+                
+                <a href="https://gastrosud.com.ar/"><img class="imgProyecto" src="./img/mockup desktop Gastrosud (1).png" alt=""></a>
+                <div class="textoProyecto">
+                    <h3>GASTROSUD</h3>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+</body>
+</html>
